@@ -14,6 +14,8 @@ var createGrid = function(size){
 
 	$('.container').width("960px");
 	$('.container').height("960px");
+	$('.container').css("background", "white");
+	$('.container').css("border-radius", "3px");
 
 	for(var j=1; j<=size; j++){
 
